@@ -7,53 +7,36 @@
 body {
   background-color: #090b0b;
 }
-@font-face {
-  font-family: 'TerminaTest-Thin';
-  src: url('/fonts/TerminaTest-Thin.woff');
-  font-display: swap;
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-display;
 }
 
-@font-face {
-  font-family: 'TerminaTest-Regular';
-  src: url('/fonts/TerminaTest-Regular.woff');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TerminaTest-Medium';
-  src: url('/fonts/TerminaTest-Medium.woff');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TerminaTest-Light';
-  src: url('/fonts/TerminaTest-Light.woff');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TerminaTest-heavy';
-  src: url('/fonts/TerminaTest-heavy.woff');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TerminaTest-ExtraLight';
-  src: url('/fonts/TerminaTest-ExtraLight.woff');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'TerminaTest-Demi';
-  src: url('/fonts/TerminaTest-Demi.woff');
-  font-display: swap;
+h1 {
+  @apply text-5xl md:text-7xl text-gold;
 }
 
-@font-face {
-  font-family: 'TerminaTest-Bold';
-  src: url('/fonts/TerminaTest-Bold.woff');
-  font-display: swap;
+h2 {
+  @apply text-3xl md:text-5xl text-gold;
 }
 
-@font-face {
-  font-family: 'TerminaTest-Black';
-  src: url('/fonts/TerminaTest-Black.woff');
-  font-display: swap;
+h3 {
+  @apply text-xl md:text-2xl text-white;
+}
+
+h4 {
+  @apply text-sm text-white;
+}
+
+p {
+  @apply text-khaki font-light leading-relaxed;
+}
+
+a {
+  @apply text-sienna font-semibold cursor-pointer md:hover:brightness-90;
 }
 
 .textColor {

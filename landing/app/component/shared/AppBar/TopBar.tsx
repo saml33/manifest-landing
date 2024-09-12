@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 const TopBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +18,13 @@ const TopBar = () => {
   };
 
   return (
-    <div className='w-full bg-gradient-radial from-[#403822] to-[#000000] cursor-pointer h-[60px] 2xl:h-[120px] 3xl:h-[210px] sm:h-[90px]'>
+    <div className='w-full py-6'>
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
           <Link href='/' className='z-50'>
-            <Icons.Logo className='w-[147px] h-[28px] sm:h-[32px]' />
+            <Image src='/assets/manifest-logo-mark.svg' height={64} width={64} alt="logo" />
           </Link>
-          <div className='hidden md:flex justify-center items-center gap-10 z-50'>
+          {/* <div className='hidden md:flex justify-center items-center gap-10 z-50'>
             {links.map((item, index) => {
               return (
                 <Link
@@ -39,15 +40,15 @@ const TopBar = () => {
                 </Link>
               );
             })}
-          </div>
+          </div> */}
           <Link 
-            href="https://fill.city/" 
+            href="https://github.com/CKS-Systems/manifest" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='text-black z-50 px-8 2xl:px-10 3xl:px-16 md:block hidden py-3 bg-[#95C9BD] rounded-lg text-[16px] font-medium hover:opacity-80 active:translate-y-[1px]'>
-            Trade Now
+            className=''>
+            View on Github
           </Link>
-          <div className='md:hidden block'>
+          {/* <div className='md:hidden block'>
             <button onClick={toggleDrawer}>
               <Icons.hamburger className='w-[28px] sm:w-[34px] h-[28px] sm:h-[34px]' />
             </button>
@@ -94,7 +95,7 @@ const TopBar = () => {
                 </Link>
               </div>
             </Drawer>
-          </div>
+          </div> */}
         </div>
       </Wrapper>
     </div>

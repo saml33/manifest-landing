@@ -14,15 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        terminaThin: ['TerminaTest-Thin', 'sans-serif'],
-        terminaRegular: ['TerminaTest-Regular', 'sans-serif'],
-        terminaMedium: ['TerminaTest-Medium', 'sans-serif'],
-        terminaLight: ['TerminaTest-Light', 'sans-serif'],
-        terminaheavy: ['TerminaTest-heavy', 'sans-serif'],
-        terminaExtraLight: ['TerminaTest-ExtraLight', 'sans-serif'],
-        terminaExtraDemi: ['TerminaTest-Demi', 'sans-serif'],
-        terminaExtraBold: ['TerminaTest-Bold', 'sans-serif'],
-        terminaExtraBlack: ['TerminaTest-Black', 'sans-serif'],
+        display: ['var(--font-display)'],
+        body: ['var(--font-body)'],
       },
       screens: {
         xs: '325px',
@@ -38,20 +31,12 @@ const config: Config = {
         '3xl': '2900px',
       },
       colors: {
-        black: {
-          1: '#000000',
-          2: '##090B0B',
-          3: '#121616',
-        },
-        purple: {
-          1: '#6C5DD3',
-        },
-        white: {
-          1: '#FFF',
-          2: '#DDD',
-          3: '#D9D9D9',
-          4: '#848895',
-        },
+        gold: "#D4AF37",
+        black: "#0E0B01",
+        night: "#161513",
+        sienna: "#D57A66",
+        white: "#EFE3BD",
+        khaki: "#ACA386",
         green: {
           1: '#50C878',
         },
