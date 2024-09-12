@@ -26,13 +26,13 @@ const INTEGRATIONS = [
 
 const Integrations = () => {
     return (
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-20 border-b border-brown">
         <Wrapper>
             <h2 className="text-center mb-6">Integrations</h2>
         <div className="grid grid-cols-12 gap-6 md:gap-10">
             {INTEGRATIONS.map((p) => {
                 return <div className="col-span-12 md:col-span-4">
-                <div className={`mb-4 w-full h-56 bg-cover bg-no-repeat bg-center`} 
+                <div className={`border border-night mb-4 w-full h-56 bg-cover bg-no-repeat bg-center`} 
         style={{ backgroundImage: `url(${p.imagePath})` }} />
         <h3 className="mb-1">{p.name}</h3>
         <p className="mb-2">{p.description}</p>

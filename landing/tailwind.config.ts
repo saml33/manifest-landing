@@ -33,6 +33,7 @@ const config: Config = {
       colors: {
         gold: "#D4AF37",
         black: "#0E0B01",
+        brown: "#221B07",
         night: "#161513",
         sienna: "#D57A66",
         white: "#EFE3BD",

@@ -2,7 +2,7 @@ import Wrapper from "../shared/ComponentWrapper/Wrapper"
 
 const FeaturesNew = () => {
     return (
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-20 border-b border-brown">
         <Wrapper>
             <h2 className="text-center mb-6">Features</h2>
         <div className="grid grid-cols-12 gap-6 md:gap-10">

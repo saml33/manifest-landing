@@ -4,7 +4,7 @@ import * as Icons from '../../svg/Icons';
 
 const Security = () => {
   return (
-    <div className='bg-night py-16'>
+    <div className='py-12 md:py-20 border-b border-brown'>
       <Wrapper>
         <div className='w-full flex flex-col items-center'>
             <h2 className='mb-2'>

@@ -3,10 +3,10 @@ import Wrapper from '../shared/ComponentWrapper/Wrapper';
 
 const Hero: React.FC = () => {
   return (
-      <Wrapper style='h-full'>
+      <Wrapper style='h-full border-b border-brown'>
           <div className='w-full flex flex-col gap-5 justify-center items-center h-full py-12 md:py-20'>
             <div className='max-w-3xl flex flex-col items-center text-center'>
-              <span className='mb-2 text-sienna font-bold'>MANIFEST</span>
+              <span className='mb-2 text-white font-bold'>MANIFEST</span>
                 <h1 className='mb-4'>
                   The Unlimited Orderbook
                 </h1>

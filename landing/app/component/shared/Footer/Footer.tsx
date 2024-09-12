@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Footer = () => {
 
   return (
-    <div className='border-t border-night pt-10 pb-4'
+    <div className='border-t border-brown pt-10 pb-4'
     >
       <Wrapper>
         <div className='w-full flex justify-center items-center flex-col gap-10 2xl:gap-14'>
@@ -32,7 +32,7 @@ const Footer = () => {
                   );
                 })}
               </div>
-              <p className='text-center'>
+              <p className='text-center text-sm'>
                 Manifest is Open Source, Public Good, Blockchain Software. Licensed under GNU GPL-3.0
               </p>
               <p className='text-xs opacity-60'>

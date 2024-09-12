@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl md:text-5xl text-gold;
+  @apply text-3xl md:text-4xl text-gold;
 }
 
 h3 {
